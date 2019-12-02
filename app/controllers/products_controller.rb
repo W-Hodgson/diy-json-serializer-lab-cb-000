@@ -23,7 +23,7 @@ class ProductsController < ApplicationController
   end
 
   def data
-
+    product = Product.find(params[:id])
   end
 
   private
